@@ -49,6 +49,7 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation(libs.androidx.material)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -65,4 +66,10 @@ dependencies {
 
     // Coil
     implementation(libs.coil.compose)
+
+    // ViewModel em Jetpack Compose
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
+
+    // WebView Accompanist library
+    implementation(libs.accompanist.webview)
 }
